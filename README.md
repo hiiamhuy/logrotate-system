@@ -13,9 +13,9 @@ The Personal Log File service depends on specific files in your Web directory: `
 **To turn on a personal log file:**
 
 1. Log into your web development server using a terminal emulator.
-2. At the prompt, change directories to your home directory:
+2. At the prompt, change directories to your Web directory:
    ```bash
-   cd ~
+   cd public_html
    ```
 3. Use the `touch` command to create and enable a log file. For example, to enable your personal extended_log file:
    ```bash
@@ -41,14 +41,8 @@ The Personal Log File service depends on specific files in your Web directory: `
 ### Quick Install
 
 ```bash
-# 1. Extract the downloaded archive
-# For .tar.gz files:
-tar xzf logrotate-system.tar.gz
-cd logrotate-system
-
-# OR for .zip files:
-unzip logrotate-system.zip
-cd logrotate-system
+# 1. Download all files to your preferred directory
+cd ~/log-rotation  # or wherever you want to keep these scripts
 
 # 2. Make scripts executable
 chmod +x *.sh
