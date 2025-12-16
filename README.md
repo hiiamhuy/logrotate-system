@@ -41,8 +41,14 @@ The Personal Log File service depends on specific files in your Web directory: `
 ### Quick Install
 
 ```bash
-# 1. Download all files to your preferred directory
-cd ~/log-rotation  # or wherever you want to keep these scripts
+# 1. Extract the downloaded archive
+# For .tar.gz files:
+tar xzf logrotate-system.tar.gz
+cd logrotate-system
+
+# OR for .zip files:
+unzip logrotate-system.zip
+cd logrotate-system
 
 # 2. Make scripts executable
 chmod +x *.sh
